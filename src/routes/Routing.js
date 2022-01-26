@@ -10,7 +10,7 @@ import Portfolio from '../Pages/portfolio';
 import About from '../Pages/about';
 import performmance from '../Pages/performance';
 
-import '../../assets/css/styles.css';
+
 
 
 
