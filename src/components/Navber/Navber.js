@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Redirect , Link} from 'react-router-dom'
-import { AuthContext } from '../Auth'
-import firebaseConfig from '../../config';
+// import { AuthContext } from '../Auth'
+// import firebaseConfig from '../../config';
 import '../../assets/css/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -36,10 +36,10 @@ return (
                         <li className="nav-item"><Link class="nav-link" to="/performmance">Performmance</Link></li>
                        
                     </ul>
-                    <li className="nav-item" >
+                    {/* <li className="nav-item" >
           
           <button  onClick={() => firebaseConfig.auth().signOut()} className="btn btn-danger">Sign Out</button>
-        </li>
+        </li> */}
                 </div>
             </div>
         </nav>
