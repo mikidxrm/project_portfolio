@@ -11,11 +11,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Navber = () => {
-const { currentUser } = useContext(AuthContext);
+// const { currentUser } = useContext(AuthContext);
 
-if (!currentUser) {
-    return <Redirect to="/" />;
-}
+// if (!currentUser) {
+//     return <Redirect to="/" />;
+// }
 
 return (
     <div>
@@ -31,7 +31,7 @@ return (
                         {/* <li className="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li className="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                         <li className="nav-item"><a class="nav-link" href="#signup">Contact</a></li> */}
-                        <li className="nav-item"><Link class="nav-link" to="/Home">Home</Link></li>
+                        <li className="nav-item"><Link class="nav-link" to="/">Home</Link></li>
                         <li className="nav-item"><Link class="nav-link" to="/Portfolio">Portfolio</Link></li>
                         <li className="nav-item"><Link class="nav-link" to="/performmance">Performmance</Link></li>
                        
