@@ -15,7 +15,7 @@ function Home() {
                    <div class="text-center">
                        <h1 class="mx-auto my-0 text-uppercase">Home</h1>
                        <h2 class="text-white-50 mx-auto mt-2 mb-5">my web Thanawat k.</h2>
-                       <a class="btn btn-primary" href="#about">Get start</a>
+                      
                    </div>
                </div>
            </div>

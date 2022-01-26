@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes,Route, Switch ,Link } from 'react-router-dom'
+import { HashRouter as Router, Routes,Route, Switch ,Link } from 'react-router-dom'
 
 import Dashboard from '../components/Dashboard'
 import LogIn from '../components/LogIn'
@@ -16,8 +16,9 @@ import performmance from '../Pages/performance';
 
 function Routing() {
   return (
-    <AuthProvider>
+   
       <Router>
+         <AuthProvider>
         <Switch>
           <Route exact path="/" component={LogIn} />
           <Route exact path="/dashboard" component={Dashboard} />
@@ -27,8 +28,9 @@ function Routing() {
           <Route exact path="/About" component={About} />
           <Route exact path="/performmance" component={performmance} />
         </Switch>
+        </AuthProvider>
       </Router>
-    </AuthProvider>
+   
   );
 }
 

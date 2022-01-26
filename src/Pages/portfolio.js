@@ -17,9 +17,7 @@ function portfolio() {
               <h2 class="text-white-50 mx-auto mt-2 mb-5">
                 RESUME SOFTWARE DEVELOPER
               </h2>
-              <a class="btn btn-primary" href="#about">
-                Get start
-              </a>
+              
             </div>
           </div>
         </div>
